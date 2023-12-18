@@ -1,0 +1,110 @@
+.mat-toolbar-row, .mat-toolbar-single-row {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 16px;
+  max-width: 500px;
+  flex-direction: row;
+  align-items: left;
+  white-space: nowrap;
+  height: 50px;
+}
+
+.back-page-btn, .next-page-btn {
+  background-color: white;
+}
+
+.next-page-btn {
+  margin-left: 5px;
+}
+
+.audio-player-bg-card {
+  background-image: url(../../../assets/images/audio-player-bg.png);
+  background-size: cover;
+  display: block;
+  align-items: center;
+  max-width: 400px;
+  background-color: #ebeff8;
+}
+
+.audio-player-card {
+  background-image: url(../../../assets/images/audio-player-main-bg.png);
+  background-size: cover;
+  padding: 10px;
+  transition: 0.5s all ease;
+  height: 600px;
+  max-width: 380px;
+  background-color: #111c33;
+  box-shadow: 0 8px 32px 0 rgba(1, 8, 61, 0.37);
+  border-radius: 10px;
+}
+
+img.mat-card-image {
+  height: 300px;
+  width: 300px;
+  margin-top: 20px;
+  box-shadow: 0 8px 32px 0 rgba(1, 8, 61, 0.37);
+}
+
+mat-card-content, .audio-img {
+  display: flex;
+  justify-content: center;
+}
+
+mat-divider {
+  background-color: #0662A7;
+}
+
+mat-card-title, mat-card-subtitle {
+  margin-left: 20px;
+  color: rgb(229, 235, 240);
+}
+
+.audio-control-button-row {
+  display: flex;
+  justify-content: center;
+}
+
+.audio-control-button-container {
+  display: inline;
+  justify-content: center;
+  padding: 5px;
+}
+
+.audio-progress-row {
+  margin-top: 50px;
+  text-align: right;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.play-pause-audio-btn, .prev-audio-btn, .next-audio-btn {
+  margin-top: 20px;
+  box-shadow: 0 8px 32px 0 rgba(88, 105, 229, 0.37);
+}
+
+.play-pause-audio-btn {
+  background-color:rgb(244, 247, 249);
+  color:#111230;
+  border: 3px solid #b5b7f6;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.prev-audio-btn, .next-audio-btn {
+  background-color: #0662A7;
+  border: 3px solid #04538f;
+}
+
+.lyrics-card {
+  background-color: #b5b7f6;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 3px solid #04538f;
+}
+
+.lyrics {
+  margin-top: 30px;
+  font-size: medium;
+  font-style: italic;
+}

@@ -1,6 +1,109 @@
 <mat-toolbar>
-  <button class="back-page-btn" mat-button routerLink="/new-year-wishes">
-    <mat-icon>keyboard_backspace</mat-icon>
+  <button class="back-page-btn" mat-mini-fab routerLink="/new-year-wishes">
+    <mat-icon>west</mat-icon>
+  </button>
+  <button class="next-page-btn" mat-mini-fab routerLink="/gratitude">
+    <mat-icon>east</mat-icon>
   </button>
 </mat-toolbar>
-<p>audio-player works!</p>
+<mat-card class="audio-player-bg-card">
+
+  <mat-card class="audio-player-card">
+    <mat-card-title>#{{audioId}}</mat-card-title>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+      <div class="audio-img">
+        <img mat-card-image src={{audioImage}} alt="image to display">
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <mat-card-title>{{audioName}}</mat-card-title>
+      <mat-card-subtitle>{{artistName}}</mat-card-subtitle>
+      <mat-divider></mat-divider>
+      <div class="audio-control-btns">
+        <div class="audio-progress-row">
+          <mat-progress-bar mode="determinate" value={{audioProgressValue}}></mat-progress-bar>
+          {{currentAudioTimeInMmSs}}/{{audioDuration}}
+        </div>
+        <div class="audio-control-button-row">
+          <div class="audio-control-flex-container">
+            <div class="audio-control-button-container">
+              <button class="prev-audio-btn" mat-mini-fab (click)="playPreviousAudio()">
+                <mat-icon>skip_previous</mat-icon>
+              </button>
+            </div>
+            <div class="audio-control-button-container" *ngIf="isAudioPlayed">
+              <button mat-fab (click)="handleAudioPlayPause()" class="play-pause-audio-btn">
+                <mat-icon>play_arrow</mat-icon>
+              </button>
+            </div>
+            <div class="audio-control-button-container" *ngIf="isAudioPaused">
+              <button mat-fab (click)="handleAudioPlayPause()" class="play-pause-audio-btn">
+                <mat-icon>pause</mat-icon>
+              </button>
+            </div>
+            <div class="audio-control-button-container">
+              <button class="next-audio-btn" mat-mini-fab (click)="playNextAudio()">
+                <mat-icon>skip_next</mat-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card class="lyrics-card">
+    <h2>#dedicated lyrics</h2>
+    <mat-divider></mat-divider>
+    <div class="lyrics" *ngIf="audioId == '1'">
+      <b>
+        Khamoshiyon mein gunjti rahe<br>
+        Bas teri hi hansi<br>
+        Chalo Chalein duur kaheen<br>
+        Itna hi to bas kehna hai<br>
+        Yunhi paas mere rehna hai
+      </b>
+    </div>
+    <div class="lyrics" *ngIf="audioId == '2'">
+      <b>
+        Time stands still<br>
+        Beauty in all she is<br>
+        I will be brave<br>
+        I will not let anything take away<br>
+        What's standing in front of me<br>
+        Every breath, every hour has come to this<br>
+      </b>
+    </div>
+    <div class="lyrics" *ngIf="audioId == '3'">
+      <b>
+        Saari ki saari meri hai tu<br>
+        Tujhko kabhi na main baantun<br>
+        .<br>
+        .<br>
+        Yun khushboo meri<br>
+        Hawaon mein mehsoos karna tum<br>
+        Likhe har lafz mere haathon se<br>
+        Use yaad rakhna tum<br>
+      </b>
+    </div>
+    <div class="lyrics" *ngIf="audioId == '4'">
+      <b>
+        tere sapno mein aaunga, kuch baate bataunga<br>
+        sirhane mein aake me bhi so jaunga<br>
+        tu roe agar to chup me karaunga,<br>
+        chup na hoye to fir me bhi ro jaunga.<br>
+        tujhe nindo se apni hai pyar kitna,<br>
+        teri palko par aake chadar ban jaunga<br>
+      </b>
+    </div>
+    <div class="lyrics" *ngIf="audioId == '5'">
+      <b>
+        But if the world was ending<br>
+        You'd come over, right?<br>
+        You'd come over and you'd stay the night<br>
+        .<br>
+        All our fears would be irrelevant<br>
+      </b>
+    </div>
+  </mat-card>
+</mat-card>
