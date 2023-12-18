@@ -1,3 +1,17 @@
+.mat-toolbar-row, .mat-toolbar-single-row {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 16px;
+  max-width: 500px;
+  flex-direction: row;
+  align-items: left;
+  white-space: nowrap;
+  height: 50px;
+}
+
+.back-page-btn {
+  background-color: white;
+}
 
 .welcome-card{
   background-image: url(../../../assets/images/new-year-wishes-bg.png);
