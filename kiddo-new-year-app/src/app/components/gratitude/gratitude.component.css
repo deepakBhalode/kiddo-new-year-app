@@ -1,0 +1,8 @@
+
+.container{
+  background-image: url(../../../assets/images/gratitude-bg.png);
+  background-size: cover;
+  max-width: 400px;
+  height:100%;
+  text-align: center;
+}
