@@ -17,6 +17,10 @@
   margin-left: 5px;
 }
 
+mat-card-subtitle {
+  color:rgb(1, 11, 52);
+}
+
 .container{
   background-image: url(../../../assets/images/gratitude-bg.png);
   background-size: cover;
@@ -24,14 +28,19 @@
   text-align: center;
   font-size: medium;
   font-style: italic;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Sevillana', cursive;
+  font-family: 'Bradley Hand', cursive;
 }
 
 .video-content {
   margin-top:10px;
   max-width: 350px;
   max-height: 350px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: medium;
+  font-family: 'Bradley Hand', cursive;
 }
 
 mat-card-subtitle, .gratitude-content {
@@ -41,8 +50,7 @@ mat-card-subtitle, .gratitude-content {
   margin-right: 5px;
   font-size: medium;
   font-style: italic;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Sevillana', cursive;
+  font-family: 'Bradley Hand', cursive;
 }
 
 .gratitude-content-card {
@@ -51,4 +59,21 @@ mat-card-subtitle, .gratitude-content {
   margin-left: 10px;
   margin-right: 10px;
   max-width: 400px;
+  font-family: 'Bradley Hand', cursive;
 }
+
+.mat-icon {
+  color: rgb(4, 4, 144);
+}
+
+.footer {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.heart-icon {
+  font-size: 35px;
+}
+
+
