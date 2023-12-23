@@ -21,6 +21,11 @@
   background-image: url(../../../assets/images/gratitude-bg.png);
   background-size: cover;
   max-width: 400px;
-  height:100%;
   text-align: center;
+}
+
+.video-content {
+  margin-top:10px;
+  max-width: 350px;
+  max-height: 350px;
 }

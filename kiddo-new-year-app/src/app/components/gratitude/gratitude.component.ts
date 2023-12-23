@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GratitudeComponent implements OnInit {
 
+  currentAudio = new Audio()
+
   constructor() { }
 
   ngOnInit(): void {
+    this.playGratitudeAudio()
   }
+
+  playGratitudeAudio() {
+    this.currentAudio.src = '../assets/audios/Tum-Ho-Toh.mp3'
+    this.currentAudio.load();
+    this.currentAudio.play();
+  }
+
+
 
 }
