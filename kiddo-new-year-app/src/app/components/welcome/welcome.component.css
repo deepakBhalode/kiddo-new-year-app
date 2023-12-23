@@ -11,8 +11,12 @@
   margin-top: 45%;
 }
 
-h1, h2, h3 {
+h1, h3 {
   font-style: italic;
+  font-family: 'Comic Sans MS';
+}
+
+h2 {
   font-family: 'Comic Sans MS';
 }
 
