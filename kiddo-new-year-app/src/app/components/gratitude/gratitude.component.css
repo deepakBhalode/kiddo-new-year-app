@@ -28,7 +28,7 @@ mat-card-subtitle {
   text-align: center;
   font-size: medium;
   font-style: italic;
-  font-family: 'Bradley Hand', cursive;
+  font-family: 'Comic Sans MS';
 }
 
 .video-content {
@@ -40,7 +40,7 @@ mat-card-subtitle {
 h3 {
   font-style: italic;
   font-size: medium;
-  font-family: 'Bradley Hand', cursive;
+  font-family: 'Comic Sans MS';
 }
 
 mat-card-subtitle, .gratitude-content {
@@ -50,7 +50,7 @@ mat-card-subtitle, .gratitude-content {
   margin-right: 5px;
   font-size: medium;
   font-style: italic;
-  font-family: 'Bradley Hand', cursive;
+  font-family: 'Comic Sans MS';
 }
 
 .gratitude-content-card {
@@ -59,17 +59,11 @@ mat-card-subtitle, .gratitude-content {
   margin-left: 10px;
   margin-right: 10px;
   max-width: 400px;
-  font-family: 'Bradley Hand', cursive;
+  font-family: 'Comic Sans MS';
 }
 
 .mat-icon {
   color: rgb(4, 4, 144);
-}
-
-.footer {
-  display: block;
-  justify-content: center;
-  text-align: center;
 }
 
 .heart-icon {

@@ -24,7 +24,7 @@
   max-width: 400px;
   height:100%;
   text-align: center;
-  font-family: 'Bradley Hand', cursive;
+  font-family: 'Comic Sans MS';
 }
 
 .video-content {
@@ -62,5 +62,5 @@ mat-card-content{
   justify-content: center;
   font-size: medium;
   font-style: italic;
-  font-family: 'Bradley Hand', cursive;
+  font-family: 'Comic Sans MS';
 }
