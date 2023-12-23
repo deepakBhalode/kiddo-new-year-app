@@ -11,6 +11,12 @@
   margin-top: 45%;
 }
 
+h1, h3, h4 {
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sevillana', cursive;
+}
+
 button {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

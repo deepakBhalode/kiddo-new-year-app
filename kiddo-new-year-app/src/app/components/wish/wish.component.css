@@ -24,6 +24,8 @@
   max-width: 400px;
   height:100%;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sevillana', cursive;
 }
 
 .video-content {
@@ -46,14 +48,21 @@ mat-card-subtitle {
   margin-left: 20px;
 }
 
-img {
-  height: 350px;
-  width: 350px;
-  margin-top: 20px;
-  box-shadow: 0 8px 32px 0 rgba(1, 8, 61, 0.37);
-}
-
-mat-card-content, .audio-img {
+mat-card-content{
   display: block;
   justify-content: center;
+}
+
+.wish-content-card {
+  background-image: url(../../../assets/images/wish-pg-msg-img.png);
+  background-size: cover;
+}
+
+.wish-content {
+  display: block;
+  justify-content: center;
+  font-size: medium;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sevillana', cursive;
 }

@@ -22,6 +22,10 @@
   background-size: cover;
   max-width: 400px;
   text-align: center;
+  font-size: medium;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sevillana', cursive;
 }
 
 .video-content {
@@ -30,9 +34,15 @@
   max-height: 350px;
 }
 
-.gratitude-content {
-  margin-left: 10px;
-  margin-right: 10px;
+mat-card-subtitle, .gratitude-content {
+  display: block;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: medium;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sevillana', cursive;
 }
 
 .gratitude-content-card {
