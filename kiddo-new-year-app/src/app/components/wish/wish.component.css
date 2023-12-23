@@ -13,6 +13,11 @@
   background-color: white;
 }
 
+.mat-card-header {
+  display: block;
+  text-align: center;
+}
+
 .welcome-card{
   background-image: url(../../../assets/images/new-year-wishes-bg.png);
   background-size: cover;
@@ -35,4 +40,20 @@
   height: 50px;
   font-size: medium;
   color: rgb(3, 3, 100);
+}
+
+mat-card-subtitle {
+  margin-left: 20px;
+}
+
+img {
+  height: 350px;
+  width: 350px;
+  margin-top: 20px;
+  box-shadow: 0 8px 32px 0 rgba(1, 8, 61, 0.37);
+}
+
+mat-card-content, .audio-img {
+  display: block;
+  justify-content: center;
 }

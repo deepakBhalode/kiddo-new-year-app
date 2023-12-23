@@ -29,3 +29,16 @@
   max-width: 350px;
   max-height: 350px;
 }
+
+.gratitude-content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.gratitude-content-card {
+  background-image: url(../../../assets/images/gratitude-pg-msg-img.png);
+  background-size: cover;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 400px;
+}

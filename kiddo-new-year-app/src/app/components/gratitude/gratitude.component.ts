@@ -12,7 +12,7 @@ export class GratitudeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.playGratitudeAudio()
+    //this.playGratitudeAudio()
   }
 
   playGratitudeAudio() {
