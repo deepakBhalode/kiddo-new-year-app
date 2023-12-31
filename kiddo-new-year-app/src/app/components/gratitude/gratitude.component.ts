@@ -21,4 +21,8 @@ export class GratitudeComponent implements OnInit {
     this.currentAudio.play();
   }
 
+  pauseGratitudeAudio() {
+    this.currentAudio.pause();
+  }
+
 }
