@@ -30,3 +30,15 @@ button {
   font-size: medium;
   color: rgb(3, 3, 100);
 }
+
+.couple-pic-row {
+  /* background-image: url(../../../assets/images/cute-friends-img.jpg);*/
+  background-size: cover;
+  display: block;
+  align-items: center;
+  max-width: 400px;
+}
+
+.couple-img {
+  border-radius: 50%;
+}
